@@ -5,52 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="web.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
   </head>
   <body>
 
     <!--header-->
     <header class="container-fluid header">
       <div class="row">
-        <div class="col-xs-10 col-sm-3 col-md-2 col-lg-2">
-          <img class="" src="img/logo-colegio.png" width="50px">
-        </div>
-        <div class="col-xs-2 col-sm-9 col-md-10 col-lg-10">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+        <div class="col-xs col-sm col-md col-lg-12">
+                  <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light nav-container">
+              <div class="container-fluid nav-container">
+                  <!-- Logo y Nombre del Colegio -->
+                  <a class="navbar-brand d-flex align-items-center" href="#">
+                      <img src="img/logo-colegio.png" alt="Logo del Colegio" id="img-logo" class="d-inline-block align-text-top me-2 img-fluid">
+                      <span>Nombre del Colegio</span>
+                  </a>
+                  <!-- Botón para el menú en pantallas pequeñas -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <!-- Enlaces del menú a la derecha -->
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                              <a class="nav-link active" id="inicio" aria-current="page" href="#">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Actividades</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">SGA</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Contacto</a>
+                          </li>
+                          <li class="nav-item">
+                              <button class="btn btn-primary" type="button">Acceder</button>
+                          </li>
+                      </ul>
+                  </div>
               </div>
-            </div>
           </nav>
         </div>
       </div>
@@ -62,13 +62,13 @@
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/slide-one.jpg" class="d-block w-100" alt="...">
+              <img src="img/img-slide-01.jpg" class="d-block w-100 img-fluid img-slide" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
+              <img src="img/img-slide-02.jpg" class="d-block w-100 img-fluid img-slide" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
+              <img src="img/img-slide-03.jpg" class="d-block w-100 img-fluid img-slide" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -97,7 +97,7 @@
             .</p>
         </div>
         <div class="col-xs col-sm col-md col-lg-6">
-          <img src="img/img1.jpg" alt="foto de aula TIC">
+          <img src="img/img1.jpg" alt="foto de aula TIC" class="img-fluid">
         </div>
       </div>
     </section>
@@ -177,29 +177,29 @@
       <h2>Noticias y Actividades</h2>
       <div class="row">
         <div class="col-xs col-sm col-md col-lg-4">
-          <img src="img/imgNot.jpg" alt="" width="350px">
+          <img src="img/imgNot.jpg" alt="" class="img-fluid">
           <p>136 aniversario de la publicación de la obra "Azul" de Rubén Darío</p>
         </div>
         <div class="col-xs col-sm col-md col-lg-4">
-          <img src="img/imgNot.jpg" alt="" width="350px">
+          <img src="img/imgNot.jpg" alt="" class="img-fluid">
           <p>136 aniversario de la publicación de la obra "Azul" de Rubén Darío</p>
         </div>
         <div class="col-xs col-sm col-md col-lg-4">
-          <img src="img/imgNot.jpg" alt="" width="350px">
+          <img src="img/imgNot.jpg" alt="" class="img-fluid">
           <p>136 aniversario de la publicación de la obra "Azul" de Rubén Darío</p>
         </div>
       </div>
       <div class="row">
         <div class="col-xs col-sm col-md col-lg-4">
-          <img src="img/imgNot.jpg" alt="" width="350px">
+          <img src="img/imgNot.jpg" alt="" class="img-fluid">
           <p>136 aniversario de la publicación de la obra "Azul" de Rubén Darío</p>
         </div>
         <div class="col-xs col-sm col-md col-lg-4">
-          <img src="img/imgNot.jpg" alt="" width="350px">
+          <img src="img/imgNot.jpg" alt="" class="img-fluid">
           <p>136 aniversario de la publicación de la obra "Azul" de Rubén Darío</p>
         </div>
         <div class="col-xs col-sm col-md col-lg-4">
-          <img src="img/imgNot.jpg" alt="" width="350px">
+          <img src="img/imgNot.jpg" alt="" class="img-fluid">
           <p>136 aniversario de la publicación de la obra "Azul" de Rubén Darío</p>
         </div>
       </div>
@@ -210,11 +210,11 @@
       <div class="row">
         <div class="col-xs col-sm col-md col-lg-6">
           <h5>Matrícula en línea</h5>
-          <img src="img/icono2.png" alt="" width="100px">
+          <img src="img/icono2.png" alt="" class="img-fluid">
         </div>
         <div class="col-xs col-sm col-md col-lg-6">
           <h5>Notas en línea</h5>
-          <img src="img/icono1.png" alt="" width="100px">
+          <img src="img/icono1.png" alt="" class="img-fluid">
         </div>
       </div>
     </section>
@@ -256,21 +256,22 @@
 
     <footer class="container-fluid">
       <div class="row">
-        <div class="col-xs col-sm col-md col-lg">
-          <img src="img/logo-colegio.png" alt="">
+        <div class="col-xs col-sm col-md col-lg-3 div-footer">
+          <img src="img/logo-colegio.png" alt="" class="img-fluid">
         </div>
-        <div class="col-xs col-sm col-md col-lg">
+        <div class="col-xs col-sm col-md col-lg-6 div-footer">
           <h4>Información de Contacto</h4>
           <ul>
-            <li>De dónde fue el COSEP 2 cuadras abajo</li>
+            <li>De dónde fue el COSEP 2 cuadras abajo.</li>
             <li>5832 9820</li>
             <li>sebastiansan639@gmail.com</li>
           </ul>
         </div>
-        <div class="col-xs col-sm col-md col-lg">
-          <img src="img/whatsappPNG.png" alt="" width="50px">
-          <img src="img/facebookPNG.png" alt="" width="35px">
-          <img src="img/instagramPNG.png" alt="" width="50px">
+        <div class="col-xs col-sm col-md col-lg-3 div-footer" id="icons-section">
+          <a href="#"><i class="bi bi-facebook social-icons"></i></a>
+          <a href="#"><i class="bi bi-instagram social-icons"></i></a>
+          <a href="#"><i class="bi bi-whatsapp social-icons"></i></a>
+          <a href="#"><i class="bi bi-youtube social-icons"></i></a>
         </div>
       </div>
       

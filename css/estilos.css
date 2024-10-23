@@ -1,0 +1,57 @@
+/*BAARRA DE NAVEGACIÓN*/
+header, .nav-container {
+    background-color: #2D5FAA;
+}
+
+/* Cambiar color del texto en la barra de navegación */
+.navbar-nav .nav-link, .navbar-brand span, #inicio{
+    color: #ffffff;
+}
+
+#img-logo{
+    width: 40px;
+    height: 40px;
+}
+
+.img-slide {
+    width: 1920;
+    height: 780;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #2D5FAA;
+}
+
+footer .div-footer {
+    margin-top: 30px;
+}
+
+footer .div-footer img {
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.div-footer {
+    text-align: center;
+}
+
+.div-footer ul{
+    list-style-type: none;
+}
+
+#icons-section {
+    margin-top: 90px;
+}
+
+.social-icons {
+    font-size: 2rem;
+    color: #ffffff; 
+    margin-left: 20px;
+  }
+
+  .social-icons:hover {
+    color: #b4bcc5; 
+}
