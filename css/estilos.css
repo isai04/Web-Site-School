@@ -36,6 +36,47 @@ header, .nav-container {
     text-align: justify;
 }
 
+#img-inicio {
+    width: 100%;
+    height: 96%;
+}
+
+#nosotros h3 {
+    text-align: center;
+}
+
+#mision, #vision {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+#mision {
+    color: #ffffff;
+    background-color: #2D5FAA;
+}
+
+#vision {
+    background-color: rgba(45, 95, 170, 0.7);
+}
+
+#oferta {
+    color: #2D5FAA;
+    margin-top: 20px;
+}
+
+#oferta h3 
+{
+    text-align: center;
+}
+
+.div-oferta {
+    border: 1px solid #2D5FAA;
+    padding: 20px;
+}
+
+
 /*FOOTER*/
 footer {
     background-color: #2D5FAA;
