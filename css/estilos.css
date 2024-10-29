@@ -1,6 +1,10 @@
 /*BAARRA DE NAVEGACIÓN*/
 header, .nav-container {
-    background-color: #2D5FAA;
+    background-color: #2D5FAA !important;
+}
+
+.bg-blue{
+    background-color: blue !important;
 }
 
 /* Cambiar color del texto en la barra de navegación */
@@ -16,6 +20,20 @@ header, .nav-container {
 .img-slide {
     width: 1920;
     height: 780;
+}
+
+#btn-login {
+    border: 1px solid #ffffff;
+    background-color: #2D5FAA;
+}
+
+#btn-login:hover {
+    background-color: #5883c4;
+}
+
+/*CUERPO DE LA PÁGINA*/
+.texto-justificado {
+    text-align: justify;
 }
 
 /*FOOTER*/
