@@ -9,7 +9,7 @@ header, .nav-container {
 }
 
 #img-logo{
-    width: 40px;
+    width: 60px;
     height: 40px;
 }
 
@@ -28,6 +28,13 @@ header, .nav-container {
 }
 
 /*CUERPO DE LA PÁGINA*/
+hr {
+    background-color: #2D5FAA;
+}
+
+section.section-margin, footer {
+    margin-top: 60px;
+}
 
 h2 {
     color: black;
@@ -114,18 +121,9 @@ h2 {
     color: #2D5FAA;
 }
 
-
-
-#contacto div.row label {
-    display: block;
-}
-
-.text-element {
-    width: 300px;
-    height: 40px; 
-    padding: 8px; 
-    font-size: 16px;
-    border: 1px solid #2D5FAA; 
+form {
+    width: 75%;
+    margin: auto;
 }
 
 #btn-submit {
@@ -139,9 +137,14 @@ h2 {
     
 }
 
+#btn-submit:hover {
+    background-color: #4883db;
+}
+
 /*FOOTER*/
 footer {
     background-color: #2D5FAA;
+    color: #ffffff;
 }
 
 footer .div-footer {
@@ -149,7 +152,7 @@ footer .div-footer {
 }
 
 footer .div-footer img {
-    width: 120px;
+    width: 200px;
     height: 120px;
     margin-left: 30px;
     margin-bottom: 30px;

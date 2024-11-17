@@ -86,7 +86,7 @@
     </section>
 
 
-    <section id="home" class="container">
+    <section class="container">
       <h2></h2>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 texto-justificado">
@@ -105,8 +105,9 @@
     </section>
 
 
-    <section id="nosotros" class="container fondo">
-      <h2>Nosotros...</h2>
+    <section id="nosotros" class="container fondo section-margin">
+      <h2>Nosotros</h2>
+      <hr>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 texto-justificado" id="mision">
           <h3>Misión</h3>
@@ -127,8 +128,9 @@
 
 
 
-    <section id="oferta" class="container">
+    <section id="oferta" class="container section-margin">
       <h2>Oferta académica</h2>
+      <hr>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 texto-justificado div-oferta">
           <h3>Pre-escolar</h3>
@@ -174,8 +176,9 @@
       </div>
     </section>
 
-    <section id="noticias" class="container">
+    <section id="noticias" class="container section-margin">
       <h2>Noticias y Actividades</h2>
+      <hr>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4">
           <img src="img/imgNot.jpg" alt="" class="img-fluid">
@@ -206,8 +209,9 @@
       </div>
     </section>
 
-    <section id="sistema" class="container">
+    <section id="sistema" class="container section-margin">
       <h2>Sistema de Gestión Académica</h2>
+      <hr>
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 father-box-sga">
           <div class="box-sga">
@@ -224,31 +228,30 @@
       </div>
     </section>
 
-    <section id="contacto" class="container">
+    <section id="contacto" class="container section-margin">
       <h2>Contacto</h2>
+      <hr>
       <form action="/enviar" method="post">
         <div class="row box-contacto">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 form-element">
-            <!-- Campo de texto para el nombre -->
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" class="text-element" required>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 form-element">
+          <!-- Campo de texto para el correo -->
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Correo Electrónico:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
             <br><br>
           </div>
 
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 form-element">
-            <!-- Campo de texto para el correo -->
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" class="text-element" required>
-            <br><br>
-          </div>
-
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 form-element">
-            <!-- Campo de texto para el mensaje -->
-            <label for="nombre">Mensaje:</label>
-            <input type="text" id="mensaje" name="mensaje" class="text-element" required>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 form-element">
+            <!-- Campo de texto para el textarea -->
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Asunto:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
             <br><br>
           </div>
         </div>
+
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 form-element">
             <!-- Botón de envío -->
@@ -279,22 +282,7 @@
           <a href="#"><i class="bi bi-youtube social-icons"></i></a>
         </div>
       </div>
-      
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
   </body>
