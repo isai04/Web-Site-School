@@ -87,7 +87,7 @@ h2 {
 
 /*Sistema Gestion Académica*/
 #sistema .row{
-    background-image: linear-gradient(rgba(45, 95, 170, 0.39), rgba(45, 95, 170, 0.39)), url('../img/sga.jpg');
+    background-image: linear-gradient(rgba(45, 95, 170, 0.39), rgba(45, 95, 170, 0.39)), url('../img/sga.webp');
     background-size: cover; 
     background-position: center; 
     height: 90vh; 
