@@ -45,4 +45,36 @@ h4 {
     padding: 10px;
 }
 
-/*Matricula*/
+/* Matrícula */
+.form-bg {
+    background-color: rgb(206, 206, 206);
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control:disabled,
+.form-select {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+}
+
+.form-control,
+.form-select {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 18px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-color: #007bff;
+}
+
+.btn-matricula {
+    width: 20% !important;
+}
+
