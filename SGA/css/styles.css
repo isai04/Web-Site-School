@@ -32,3 +32,17 @@ h4 {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/*Perfil*/
+.img-perfil {
+    width: 80%;
+}
+
+.datos-academicos {
+    background-color: rgb(206, 206, 206);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*Matricula*/
