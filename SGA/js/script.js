@@ -6,7 +6,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
 });
 
 // Manejar la navegación de las secciones
-const links = document.querySelectorAll('.nav-link');
+const links = document.querySelectorAll('.nav-link-js');
 const sections = document.querySelectorAll('.content-section');
 
 links.forEach(link => {

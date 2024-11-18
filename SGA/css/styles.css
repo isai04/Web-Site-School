@@ -20,14 +20,14 @@ h4 {
     background-color: #2D5FAA !important;
 }
 
-.nav-link {
+.nav-link, .back {
     padding: 10px;
     margin: 5px 0;
     border-radius: 5px;
     background-color: #2D5FAA;
 }
 
-.nav-link:hover {
+.nav-link:hover, .back:hover {
     background-color: #4575bd;
 }
 
