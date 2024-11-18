@@ -14,8 +14,8 @@
             <h2 class="text-center mb-4">Iniciar Sesión</h2>
             <form id="login-form">
                 <div class="mb-3">
-                    <label for="userId" class="form-label">ID de Usuario</label>
-                    <input type="text" id="userId" class="form-control" placeholder="Ingresa tu ID" required>
+                    <label for="userId" class="form-label">Código del Estudiante</label>
+                    <input type="text" id="userId" class="form-control" placeholder="Ingresa tu código" required>
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Contraseña</label>
@@ -28,9 +28,9 @@
 
     <!-- Main Page -->
     <div id="main-page" class="d-none">
-        <div class="d-flex">
+        <div class="d-flex row">
             <!-- Sidebar -->
-            <nav id="sidebar" class="bg-dark text-white p-3 vh-100">
+            <nav id="sidebar" class="text-white p-3 vh-100 col-xs-4 col-sm-4 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                 <h4>Menú Principal</h4>
                 <ul class="nav flex-column">
                     <li class="nav-item">
@@ -49,7 +49,7 @@
             </nav>
 
             <!-- Content Area -->
-            <div id="content" class="flex-grow-1 p-4">
+            <div id="content" class="flex-grow-1 p-4 col-xs-8 col-sm-8 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
                 <div id="inicio" class="content-section">
                     <h2>Bienvenido al Sistema de Gestión de Matrícula</h2>
                     <p>El Sistema de Gestión de Matrícula en Línea del colegio permite a los estudiantes y sus familias realizar el proceso de inscripción
@@ -62,10 +62,10 @@
                 <div id="perfil" class="content-section d-none">
                     <h2>Perfil del Estudiante</h2>
                     <div class="row">
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                             <img src="img/perfil.jpg" class="img-fluid img-perfil" alt="">
                         </div>
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
                             <div class="datos-academicos">
                                 <h5>Nombres y Apellidos</h5>
                                 <p>Gabriel Isaí Hernández Flores</p>
@@ -92,19 +92,19 @@
                 <div id="matricula" class="content-section d-none">
                     <h2>Matrícula en Línea</h2>
                     <div class="row">
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <div class="mb-3">
                                 <label for="disabledTextInput" class="form-label">Nombre completo:</label>
                                 <input type="text" id="disabledTextInput" class="form-control" placeholder="Gabriel Isaí Hernández Flores" disabled>
                               </div>
                         </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <div class="mb-3">
                                 <label for="disabledTextInput" class="form-label">Código del estudiante:</label>
                                 <input type="text" id="disabledTextInput" class="form-control" placeholder="22012683" disabled>
                               </div>
                         </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <select class="form-select form-select-sm" aria-label="Small select example" required>
                                 <option selected>Grado</option>
                                 <option value="1">Primero</option>
@@ -120,21 +120,21 @@
                                 <option value="11">Undécimo</option>
                               </select>
                         </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <select class="form-select form-select-sm" aria-label="Small select example" required>
                                 <option selected>Modalidad</option>
                                 <option value="1">Regular</option>
                                 <option value="2">Sabatino</option>
                               </select>
                         </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <select class="form-select form-select-sm" aria-label="Small select example" required>
                                 <option selected>Turno</option>
                                 <option value="1">Matutino</option>
                                 <option value="2">Vespertino</option>
                               </select>
                         </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <select class="form-select form-select-sm" aria-label="Small select example" required>
                                 <option selected>Grupo</option>
                                 <option value="1">Grupo A</option>
@@ -142,7 +142,7 @@
                                 <option value="3">Grupo C</option>
                               </select>
                         </div>
-                        <div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <button type="submit" class="btn btn-primary w-100 btn-matricula">Matricularme</button>
                         </div>
                     </div>
@@ -180,6 +180,20 @@
                             <td>2024-</td>
                             <td>Inglés</td>
                             <td>85</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Sexto</td>
+                            <td>2024-</td>
+                            <td>Ciencias Sociales</td>
+                            <td>95</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>Sexto</td>
+                            <td>2024-</td>
+                            <td>Ciencias Naturales</td>
+                            <td>90</td>
                           </tr>
                         </tbody>
                       </table>

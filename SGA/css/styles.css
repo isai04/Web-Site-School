@@ -1,3 +1,8 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+
 p {
     text-align: justify;
 }
@@ -11,7 +16,7 @@ h4 {
 }
 
 #sidebar {
-    width: 25%;
+    /*width: 25%;*/
     background-color: #2D5FAA !important;
 }
 
@@ -28,7 +33,7 @@ h4 {
 
 #content {
     background-image: linear-gradient(rgba(240, 242, 245,0.95), rgba(240, 242, 245,0.95)), url('../../img/logo-colegio-sin-fondo.png');
-    width: 75%;
+    /*width: 75%;*/
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -36,6 +41,7 @@ h4 {
 /*Perfil*/
 .img-perfil {
     width: 80%;
+    margin-bottom: 10px;
 }
 
 .datos-academicos {
@@ -74,7 +80,5 @@ h4 {
     border-color: #007bff;
 }
 
-.btn-matricula {
-    width: 20% !important;
-}
+
 
